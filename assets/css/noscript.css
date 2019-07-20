@@ -13,3 +13,11 @@
 		transform: none;
 		opacity: 1;
 	}
+
+/*My edits go here*/
+.acid_base{
+	width: 50%;
+	height: 50%;
+	margin-left: auto;
+    margin-right: auto;
+}
