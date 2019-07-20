@@ -1,3 +1,0 @@
-# lrnBiochem
-
-Description 
