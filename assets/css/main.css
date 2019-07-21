@@ -116,11 +116,12 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #585858;
+		/*color: #585858;*/
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
+
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -167,6 +168,7 @@ input, select, textarea {
 	}
 
 	h1 {
+		color: #585858;
 		font-size: 2.75em;
 		font-weight: 700;
 		line-height: 1.3;
@@ -196,6 +198,7 @@ input, select, textarea {
 		}
 
 	h2, h4, h5, h6 {
+		color: #585858;
 		font-weight: 1000;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
@@ -208,10 +211,12 @@ input, select, textarea {
 		}
 
 	h2 {
+		color: #585858;
 		font-size: 1.1em;
 	}
 
 	h3 {
+		color: #585858;
 		font-size: 2em;
 		font-weight: 900;
 	}
@@ -3329,3 +3334,24 @@ input, select, textarea {
 
 		}
 
+.review{
+	background-color: #ffe6f9;
+}
+
+.problems{
+	background-color: #f2f2f2;
+	padding: 5%;
+}
+
+.beware{
+	color: #ff1aff;
+	font-weight: 700;
+	display:inline;
+}
+
+/*.acid_base{
+	width: 50%;
+	height: 50%;
+	margin-left: auto;
+    margin-right: auto;
+}*/
