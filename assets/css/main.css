@@ -2705,6 +2705,7 @@ input, select, textarea {
 					line-height: 1.5;
 					margin-top: 0.35em;
 					opacity: 0;
+					background-color: #f2849e;
 				}
 
 					.tiles article > a .content > :last-child {
@@ -3344,8 +3345,8 @@ input, select, textarea {
 }
 
 .beware{
-	color: #ff1aff;
-	font-weight: 700;
+	color: #f2849e;
+	font-weight: 900;
 	display:inline;
 }
 
