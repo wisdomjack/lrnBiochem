@@ -3336,18 +3336,24 @@ input, select, textarea {
 		}
 
 .review{
-	background-color: #ffe6f9;
+	background-color:#ffe6f9;
 }
 
 .problems{
-	background-color: #f2f2f2;
-	padding: 5%;
+	background-color:#f2f2f2;
+	padding:5%;
 }
 
 .beware{
 	color: #f2849e;
 	font-weight: 900;
 	display:inline;
+}
+
+.explainer{
+	padding-right:30%;
+	padding-left:30%;
+	color:#585858;
 }
 
 /*.acid_base{
