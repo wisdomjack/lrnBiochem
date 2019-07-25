@@ -2403,13 +2403,16 @@ input, select, textarea {
 
 		table td {
 			padding: 0.75em 0.75em;
+			vertical-align:center;
+			align-content: center;
+			text-align: center;
 		}
 
 		table th {
 			font-size: 0.9em;
 			font-weight: 900;
 			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+
 		}
 
 		table thead {
@@ -2428,6 +2431,8 @@ input, select, textarea {
 				border: solid 1px #c9c9c9;
 				border-left-width: 0;
 				border-top-width: 0;
+				text-align: center;
+				vertical-align:text-bottom;
 			}
 
 				table.alt tbody tr td:first-child {
