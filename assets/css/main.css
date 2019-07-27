@@ -3346,7 +3346,10 @@ input, select, textarea {
 /*My code*/
 
 .review{
-	background-color:#ffe6f9;
+	/*background-color:#ffe6f9;*/
+	border-style:solid;
+	border-color:#ffe6f9;
+	padding: 5%; 
 }
 
 .problems{
