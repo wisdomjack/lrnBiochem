@@ -55,14 +55,14 @@
 
 							<div class="review">
 								<h3>Review</h3>
-								<p>SI units. Ka and equilibrium. Ka of water. pH.</p>
+								<p>SI units. Ka and equilibrium. Ka of water. pH. amphoteric. Ratio vs Fraction</p>
 							</div>
 
 
 
 							<h3>1.Intro: acids and bases</h3>
 							<p>Historically scientists came up with 3 definitions definitions of acids and bases. In biochemistry we work with <b>Brønsted–Lowry definition.</b> In the Brønsted–Lowry theory acids and bases are defined by the way they react with each other: <b>an acid donates a proton (H+) and a base accepts a proton.</b> Therefor, it is a proton transfer reaction. The species then form conjugate pairs.</p>
-							<center><img class="acid_base" src="images/acid_base.png" alt="" display=block margin-left=auto margin-right=auto width=50% height=50%/></center>
+							<center><img class="acid_base" src="images/acid_base.jpeg" alt="" display=block margin-left=auto margin-right=auto width=40% height=40%/></center>
 
 							<p>Acids and bases can be divide into <b>strong</b> and <b>weak</b>. You will encounter problems that will involve strong and weak acids/bases. Both of these types of problems will have its own strategies and shortcuts, therefore it is important that you can identify what type of acid or base you are dealing with.</p>
 							<br>
@@ -110,9 +110,7 @@
 							<div class="problems">
 								<h3>How to calculate it?</h3><br>
 								
-								<p>Here is a specif example:<br> 
-								Calculate pH of a 0.01 M benzoic acid solution.<br><br>
-
+								<p>
 								To find out the pH of a weak acid solution we use the same equation that we used to find out pH of a strong acid:<br>
 								<b>pH = -log[H3O+]</b><br><br>
 								However, since weak acid only partially dissociate in water, the conc. of H3O+ ions is not equal to the conc. of the weak acid. We need to use acid disassociation constant Ka to find the conc of H3O.<br><br>
@@ -137,7 +135,9 @@
 								<span class="fdn">[Weak Acid]</span>
 								</span><br><br>
 
-								Ka (benzoic acid) = 6.5*10^(-5). Usually give, or you can Google it.<br><br>  
+								<div class="beware">Example:<br>
+								Calculate pH of a 0.01 M benzoic acid solution.<br><br></div>
+								Ka (benzoic acid) = 6.5*10^(-5). Usually givem, or you can Google it.<br><br>  
 
 								Luckily, we know that conc. of H3O+ and conjugate base will be the same, because both are products of the same proton transfer reaction. We can exploit this property to find out conc of H3O+. To keep calculations organized we will use an <b>Initial Change Equilibrium (ICE) table</b>. To understand this table imagine you are dissolving weak acid in water. <b>Initially</b> you have weak acid and water. Immediately after mixing the two together the concentrations of all species (water, weak acid, H3O+ and conjugate base) will <b>Change</b>. After some time the <b>Equilibrium</b> will be established and the conc. of all species will remain constant.<br><br>
 
@@ -185,20 +185,241 @@
 							<h3>4.Buffers</h3><br>
 
 							<p>
-							<b>Buffers are water solutions of weak acid/base that are used to control pH.</b><br>
+							Buffers are water solutions of weak acid/base that are used to control pH.<br>
 							Buffers are kinda like springs. No matter how hard you push the spring, it always relaxes back. Unless of course you go bananas and break the spring!<br><br>
 
 							To appreciate buffers, you have to truly understand two things:<br>
-							1. Weak acid exists in equilibrium with its it's conjugate base. And vise versa for weak base/conjugate acid.<br>
+							1. Weak acid conjugate base are two pairs of the same molecule. And vise versa for weak base/conjugate acid.<br>
 							2. Acid/base reactions are happening in water. 
 
 							<!-- Buffers figure -->
-							<p><center><img class="acid_base" src="images/buffers.png" style="max-width:100%" /></center>
-							<center><font color="#585858"><p style="text-align: center;"> Acetic acid and its conjugate base Acetate form buffer in water. If we add some H3O, normally it would lower the pH, because pH = [H3O+]. However, instead H3O+ will react with Acetate to produce H2O and Acetic acid. Likewise, addition of OH- does not cause, pH to rise.</p></font></center><br></p><br><br>
+							<p><center><img class="acid_base" src="images/buffer.jpeg" style="max-width:100%; height:40%; width:40%" /></center>
+							<center><font color="#585858"><p style="text-align: center;"> CH3COOH and its conjugate base CH3COO- form buffer in water. If we add some H3O, normally it would lower the pH, because pH = [H3O+]. However, instead H3O+ will react with CH3COO- to produce H2O and CH3COOH. Likewise, addition of OH- does not cause, pH to rise.</p></font></center><br></p><br><br>
 
 
-							<button>Click me!</button>
+							<h3>4.1Titration</h3>
 
+							<p>Is a technique that involves slow dripping "titration" of a strong acid/base into a solution of weak acid/base that could be used to:<br>
+								<ol>
+									<li>Determine unknown conc. of the weak acid or base.</li>
+									<li>Determine unknown strength or Ka of the acid/base.</li>
+									<li>Prepare a buffer solution.</li>
+								</ol>
+							</p>  
+
+
+							<p><center><img class="acid_base" src="images/tittration2.jpeg" style="max-width:100%; height:100%; width:100%" /></center>
+
+
+							<center><font color="#585858"><p style="text-align: center;">This is an example how a titration of weak acid CH3COOH with strong base OH- is performed. At first, we only have CH3COOH in an acidic solution, so the pH=0. In step two, we add 0.5 equivalents of the OH- or 50% of OH- that is required to completely deprotonate the CH3COOH, this is why it is called <b>half equivalence point.</b> At this point the ratio of CH3COOH/CH3COO- = 0.5</b>. In step 3, we add another 0.5 and completley deprotonate the CH3COOH converting 100% of it into CH3COO-, an thus we call it equivalence point</p></font></center></p>
+
+							<span class="beware">Beware: </span>Equivalents represent the number of protons that can titrate, in the case of CH3COOH it is 1.<br><br><br><br>
+
+							<div class="problems">
+								<h3>How to calculate it?</h3><br>
+								
+								<p><b>Henderson-Hasselbalch</b> equation should be the first thing that comes to your mind whenever you think of buffers.<br>
+
+								<div class="eq-c">
+								<b>pH = pKa + log
+								<div class="fraction">
+								<span class="fup">[A-]</span>
+								<span class="bar">/</span>
+								<span class="fdn">[HA]</span>
+								</div>
+								</sup>
+								</b>
+								</div><br>
+
+								We can use this equation to prove that at the half equivalence point pH = pKa.<br>
+								At the half equivalence point:<br><br>
+
+								[A-] = 0.5 and [HA] = 0.5 <br> 
+								
+
+								Therefore, [A-]/[HA] = 1<br>
+								And log (1) = 0<br><br>
+
+								<div class="beware">Example:<br>
+								Prepare 1L of 0.1 M buffer of CH3COOH Acetic acid (Ka = 1.76*10^-5) at pH = 5.<br>
+								A. If you are given stock 1 M CH3COOH and 1 M CH3COO-<br> 
+								B. If you are given stock 1 M CH3COOH and 1 M NaOH<br><br></div>
+
+								<b>A.1</b> Begin by solving Henderson-Hasselbalch:<br>
+
+								<div class="eq-c">
+								5 = -log(1.76*10^-5) + log
+								<div class="fraction">
+								<span class="fup">[A-]</span>
+								<span class="bar">/</span>
+								<span class="fdn">[HA]</span>
+								</div>
+								</sup>
+								</div>
+
+								<div class="eq-c">
+								5 = 4.75 + log
+								<div class="fraction">
+								<span class="fup">[A-]</span>
+								<span class="bar">/</span>
+								<span class="fdn">[HA]</span>
+								</div>
+								</sup>
+								</div>
+
+								<div class="eq-c">
+								0.25 = + log
+								<div class="fraction">
+								<span class="fup">[A-]</span>
+								<span class="bar">/</span>
+								<span class="fdn">[HA]</span>
+								</div>
+								</sup>
+								</div>
+
+								<div class="eq-c">
+								10^(0.25)= 
+								<div class="fraction">
+								<span class="fup">[A-]</span>
+								<span class="bar">/</span>
+								<span class="fdn">[HA]</span>
+								</div>
+								</sup>
+								</div>
+
+								<div class="eq-c">
+								1.76 = 
+								<div class="fraction">
+								<span class="fup">[A-]</span>
+								<span class="bar">/</span>
+								<span class="fdn">[HA]</span>
+								</div>
+								</sup>
+								</div><br>
+
+								The result of Henderson-Hasselbalch gives us a <b>ratio</b> of base/acid. Think if it makes sense that the ratio is higher than 1 in our case? Look back at the titration curve of the acetic acid. Do we have more of the acid form (HA) or base form (A-) at pH 5?<br>
+								(Answer: We have more of the base form)<br><br>
+
+								<b>A.2</b> Calculate the <b>fraction</b> of acid and the <b>fraction</b> of base.<br><br>
+
+								by definition of fraction:<br>
+								[A-] + [HA] = 1<br>
+								[A-] = 1 - [HA]<br><br>
+
+								And we know that:<br>
+
+								<div class="eq-c">
+								1.76 = 
+								<div class="fraction">
+								<span class="fup">[A-]</span>
+								<span class="bar">/</span>
+								<span class="fdn">[HA]</span>
+								</div>
+								</sup>
+								</div>
+
+								[A-] = 1.76[HA]<br><br>
+
+								Therefore:<br>
+								1.76[HA] + [HA] = 1<br>
+								2.76[HA] = 1<br>
+								[HA] = 1/2.76<br>
+								[HA] = 0.36<br><br>
+
+								And since we already solved that:
+								[A-] = 1 - [HA]<br>
+								[A-] = 1 - 0.36<br>
+								[A-] = 0.64<br>
+
+								Now we know the <b>fractions</b> of [HA] = 0.36 and [A-] = 0.64. Again think about it does that makes scene that the base fraction is bigger?<br><br>
+
+								<b>A.3</b> Next, we need to find the actual <b>molar concentrations</b> of [HA] and [A-] of the desired buffer. This step is pretty easy, since we already know the fractions we just multiply them by the desired concentrations:<br><br>
+
+								[A-] = 0.36 * 0.1 M (of CH3COO-) = 0.036 M<br>
+								[HA] = 0.64 * 0.1 M (of CH3COOH) = 0.064 M<br><br>
+
+								<b>A.4</b> And finally we are ready to calculate the <b>volumes</b> of [HA] and [A-]. For that we will use a dilution equation:<br><br>
+
+								Dilution equation: (Stock Concentration)*(Stock Volume) = (Desired Concentration)*(Desired Volume).<br>
+
+								Assume that the Stock Volume is unknown and set it x, and solve for x:<br><br>
+
+								(1 M)(x) = (0.036 M)(1L)<br>
+
+								<div class="eq-c">
+								x = 
+								<div class="fraction">
+								<span class="fup">(0.036 M)(1L)</span>
+								<span class="bar">/</span>
+								<span class="fdn">(1 M)</span>
+								</div>
+								</sup>
+								</div>
+
+								x = 0.036L or 36ml of CH3COOH<br><br>
+
+								And<br><br>
+
+								(1 M)(x) = (0.064 M)(1L)<br>
+
+								<div class="eq-c">
+								x = 
+								<div class="fraction">
+								<span class="fup">(0.064 M)(1L)</span>
+								<span class="bar">/</span>
+								<span class="fdn">(1 M)</span>
+								</div>
+								</sup>
+								</div>
+
+								x = 0.064L or 64ml of CH3COO-<br><br>
+
+								So, to finalize:<br>
+
+								36ml of CH3COOH<br>
+								64ml of CH3COO-<br>
+								900ml of H2O, do not forget about the water!<br>
+
+								<br><br>
+
+
+								<b>B.</b> This problem is only slightly different. If we are given stock of weak acid, but instead of its conjugate base, we are given strong base, the trick is to recognize that weak acid and its conjugate base are two forms of the same molecule. Therefore we can generate one form from the other with strong acid or base. We perform the same calculations but at the end we add:<br><br> 
+
+								100 ml of CH3COOH (64ml + 36ml)<br>
+								64 ml of NaOH <br> 
+
+
+								</p>
+
+<!-- 								<div class="beware">Beware:</div><br>
+								<div class="beware">Memorize it:</div> -->
+
+						</div><br>
+							
+							
+
+<!-- 								<h1>Changing the Image</h1>   
+	<div style="max-width: 100%">						
+    <img src="images/titration.jpeg" id="myImage" style="max-width:100%; height:50%"/>
+    <input type="button" onclick="changeImage()" value="Change" />
+    <script>
+        function changeImage() {
+            var image = document.getElementById('myImage');
+            if (image.src.match("images/titration.jpeg")) {
+                image.src = "images/buffer.jpeg";
+                image.style="height:2%";
+            }
+            else {
+                image.src = "images/titration.jpeg";
+                image.style="max-width:100%";
+                image.style="width:10%"
+            }
+        }
+    </script>
+   	</div>
+<p><strong>Note:</strong> Click on the "Change" button to Change the water bottle in to the soft drink bottle</p>
+							<button>Click me!</button> -->
+							
 							</p>
 
 						</div>
